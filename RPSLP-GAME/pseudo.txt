@@ -1,0 +1,46 @@
+Building Rock Paper Scissors Lizard Spock game
+
+Keep stats Variable out side of the while loop in order to track correctly.
+
+BBT Theme
+
+alert to call up with ok action
+confirm to call up with cancel and ok action
+prompt brings up input
+
+create array in global memory that declares all 5 variables , , , , 
+
+create cpu entry index Math.floor(Math.random() * the lenght of the input variables
+
+    var cpuEntry = allowedEntry[cpuEntryIndex]; - this assigns a random number between 0 and the length of the allowedEntry Array
+
+console log the entries from both user and cpu
+
+Rules:
+
+Rock beats Scissors
+Scissors beats Paper
+Paper beats Rock
+Scissors beats Lizard
+Rock beats Lizard
+Lizard beats Spock
+Spock beats scissors
+Lizard beats paper
+Paper beats Spock
+Spock beats rock
+
+
+User === R strickly equals && and CPU === S || or
+S P
+P R
+S L 
+R L 
+L K 
+K S 
+L P 
+P K 
+K R
+
+use alerts for wins and losses and ties and add up the score ++ reference variables outside of the while loop.
+
+use alert for stats page set while loop with while and do methods
